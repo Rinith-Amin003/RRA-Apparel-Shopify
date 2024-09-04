@@ -20,6 +20,9 @@
     "call-to-action": {
       "type": "call-to-action",
       "settings": {
+        "section_title": "Sunset Serenade: Your Perfect Summer Wardrobe",
+        "collection_title": "“Sunset Serenade”",
+        "additional_information": "designed to capture the vibrant spirit of summer. From sun-soaked afternoons to breezy evenings, this collection offers everything you need to make the most of every moment."
       }
     },
     "product-grid": {
