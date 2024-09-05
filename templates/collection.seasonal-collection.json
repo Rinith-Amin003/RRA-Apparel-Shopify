@@ -12,12 +12,27 @@
     "call-to-action": {
       "type": "call-to-action",
       "custom_css": [
-        ".rraApparelParentDiv{padding: 2rem}"
+        ".rraApparelParentDiv {padding: 2rem;}"
       ],
       "settings": {
         "section_title": "Sunset Serenade: Your Perfect Summer Wardrobe",
         "collection_title": "“Sunset Serenade”",
         "additional_information": "designed to capture the vibrant spirit of summer. From sun-soaked afternoons to breezy evenings, this collection offers everything you need to make the most of every moment."
+      }
+    },
+    "video_QmxaHz": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/Summer Collection.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "product-grid": {
@@ -43,6 +58,7 @@
   },
   "order": [
     "call-to-action",
+    "video_QmxaHz",
     "product-grid"
   ]
 }
