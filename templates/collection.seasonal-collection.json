@@ -12,7 +12,7 @@
     "call-to-action": {
       "type": "call-to-action",
       "custom_css": [
-        ".rraApparelParentDiv {padding: 6rem;}"
+        ".rraApparelParentDiv {padding: 2rem 6rem;}"
       ],
       "settings": {
         "section_title": "Sunset Serenade: Your Perfect Summer Wardrobe",
