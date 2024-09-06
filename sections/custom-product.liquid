@@ -210,6 +210,7 @@
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}
+                <!-- Added a condition for the collapsible tab, it will display if the meta fields have the value. -->
                 {%- assign model_info = product.metafields.models.model_info.value -%}
                 {%- assign model_name = model_info.name.value -%}
                 {%- assign model_height = model_info.height -%}
