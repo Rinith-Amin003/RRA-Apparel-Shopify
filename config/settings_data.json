@@ -392,5 +392,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".breadcrumb{padding: 2rem;}"
+    ]
   }
 }
