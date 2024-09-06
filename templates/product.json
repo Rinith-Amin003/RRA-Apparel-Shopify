@@ -58,7 +58,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
-            "content": "<p>{{ product.metafields.models.model_info.value.bust | metafield_tag }}{{ product.metafields.models.model_info.value.height | metafield_tag }}<\/p>",
+            "content": "<p>Model Info:<\/p><p>{{ product.metafields.models.model_info.value.name.value }} is {{ product.metafields.models.model_info.value.height | metafield_tag }} and wearing size {{ product.metafields.model.wearing_size.value }}.<\/p><p>{{ product.metafields.models.model_info.value.name.value }}'s measurements:<\/p><ul><li> Burst: {{ product.metafields.models.model_info.value.bust | metafield_tag }}<\/li><li>Waist: {{ product.metafields.models.model_info.value.waist | metafield_tag }}<\/li><li>Hips: {{ product.metafields.models.model_info.value.hips | metafield_tag }}<\/li><\/ul>",
             "page": ""
           }
         },
